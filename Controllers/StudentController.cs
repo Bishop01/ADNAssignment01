@@ -27,5 +27,10 @@ namespace Assignment_01.Controllers
         {
             return View();
         }
+
+        public ActionResult Projects()
+        {
+            return View();
+        }
     }
 }
