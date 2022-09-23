@@ -3,11 +3,11 @@ const projectStates = {
     "project-1": {
         currentSlide: 1,
     },
-    "project_2": {
-        currentSlide: 2,
+    "project-2": {
+        currentSlide: 1,
     },
-    "project_3": {
-        currentSlide: 3,
+    "project-3": {
+        currentSlide: 1,
     },
 
     maxSlide: 3

@@ -7,3 +7,20 @@
         @apply space-x-3 flex justify-center items-center rounded-xl px-10 py-4 hover:cursor-pointer hover:bg-gray-100;
     }
 }
+
+@font-face {
+    font-family: 'opensans-bold';
+    src: url('../fonts/opensans-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'opensans-regular';
+    src: url('../fonts/opensans-regular.ttf') format('truetype');
+}
+
+.opensans {
+    font-family: 'opensans-regular';
+}
+.opensans-bold {
+    font-family: 'opensans-regular';
+}
