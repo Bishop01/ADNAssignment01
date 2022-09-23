@@ -1,0 +1,74 @@
+﻿
+@{
+    Layout = "../Shared/_Navbar.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body class="flex flex-col w-full h-screen">
+
+
+    <div class="flex w-full h-full object-contain">
+        <div class="w-[50%]">
+            <div class="w-[70%] flex flex-col">
+
+                <div class="text-6xl ml-[60px] mt-[60px] font-bold self-center">
+                    <p>Hi, I'm <span class="text-white text-2xl bg-[#B2E9DF] p-2 rounded-xl ml-[40px]">NextJS</span></p>
+                    <p>@ViewBag.Student.name</p>
+                    <p class="text-sm font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas sed tempus urna. Urna porttitor rhoncus dolor purus non enim praesent elementum. Ullamcorper sit amet risus nullam eget felis eget nunc. Arcu bibendum at varius vel pharetra. Sed nisi lacus sed viverra tellus in hac. Cras fermentum odio eu feugiat pretium. Purus semper eget duis at tellus at urna. Aliquam ultrices sagittis orci a scelerisque purus. Urna id volutpat lacus laoreet non curabitur gravida arcu ac. Orci nulla pellentesque dignissim enim. Pretium nibh ipsum consequat nisl vel pretium lectus. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi.</p>
+
+                </div>
+            </div>
+
+            <div class="bg-black text-white flex mt-[200px] py-5 h-[300px] font-bold">
+                <div class="w-[50%] border-r-[1px] px-5">
+                    <br />
+                    <p>
+                        Name: &emsp; @ViewBag.Student.name
+                    </p>
+                    <br />
+                    <p>
+                        ID: &emsp; @ViewBag.Student.id
+                    </p>
+                    <br />
+                    <p>
+                        CGPA: &emsp; @ViewBag.Student.cgpa
+                    </p>
+                    <br />
+                    <p>
+                        University: &emsp; American International University - Bangladesh
+                    </p>
+                    <br />
+
+                </div>
+                <div class="w-[50%] px-5">
+                    <br />
+                    <p>Contact: &emsp; +88 @ViewBag.Student.contact</p>
+                    <br />
+                    <p>
+                        Adress: &emsp; 66 South Alton Rd.
+                        Victoria, TX 77904
+                    </p>
+                    <br />
+                    <p>
+                        Email: &emsp; abysswalkr01@gmail.com
+                    </p>
+                </div>
+            </div>  
+
+        </div>
+        <div class="flex w-[50%] justify-center relative bg-[#cce7e8]">
+            <img class="w-50 h-[600px] self-center mt-[200px]" src="../Content/images/dummy.png" /> 
+            <div class="absolute mt-[100px] text-xl italic">
+                Create you website with <span class="font-bold">NextJS and Tailwind CSS</span>
+            </div> 
+        </div>
+    </div>
+
+</body>
+</html>
