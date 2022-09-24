@@ -624,10 +624,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.card-hover {
-  width: 100%;
-}
-
 .card-hover:hover {
   --tw-scale-x: 1.25;
   --tw-scale-y: 1.25;
@@ -702,6 +698,10 @@ video {
   margin-top: 120px;
 }
 
+.ml-\[100px\] {
+  margin-left: 100px;
+}
+
 .ml-\[60px\] {
   margin-left: 60px;
 }
@@ -742,20 +742,16 @@ video {
   margin-left: 330px;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-\[20px\] {
-  margin-bottom: 20px;
-}
-
-.mb-\[50px\] {
-  margin-bottom: 50px;
+.ml-\[50px\] {
+  margin-left: 50px;
 }
 
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-screen {
@@ -822,6 +818,10 @@ video {
   width: 1.5rem;
 }
 
+.w-screen {
+  width: 100vw;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -860,12 +860,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
-}
-
-.space-x-\[100px\] > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(100px * var(--tw-space-x-reverse));
-  margin-left: calc(100px * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .self-center {

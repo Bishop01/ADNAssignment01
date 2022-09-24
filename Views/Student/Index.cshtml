@@ -15,7 +15,7 @@
 
     <div class="flex w-full">
         <div class="flex flex-col justify-between w-[50%]">
-            <div class="w-[70%] flex flex-col">
+            <div id="bio" class="w-[70%] flex flex-col" style="display:none;">
 
                 <div class="text-4xl ml-[60px] mt-[60px] h-[300px] font-bold self-center overflow-hidden">
                     <p>Hi, I'm <span class="text-white text-xl bg-[#B2E9DF] p-2 rounded-xl ml-[40px]">NextJS</span></p>
@@ -25,7 +25,7 @@
                 </div>
             </div>
 
-            <div class="bg-black text-white flex py-5 h-[300px] font-bold">
+            <div id="details" class="bg-black text-white flex py-5 h-[300px] font-bold" style="display:none;">
                 <div class="w-[50%] border-r-[1px] px-5">
                     <br />
                     <p>
@@ -59,16 +59,21 @@
                         Email: &emsp; abysswalkr01@gmail.com
                     </p>
                 </div>
-            </div>  
+            </div>
 
         </div>
-        <div class="flex w-[50%] justify-center relative bg-[#cce7e8]">
-            <img class="w-50 h-[554px] self-center mt-[200px]" src="../Content/images/dummy.png" /> 
+        <div id="propic" class="flex w-[50%] justify-center relative bg-[#cce7e8]" style="display:none;">
+            <img class="w-50 h-[554px] self-center mt-[200px]" src="../Content/images/dummy.png" />
             <div class="absolute mt-[100px] text-xl italic">
                 Create you website with <span class="font-bold">NextJS and Tailwind CSS</span>
-            </div> 
+            </div>
         </div>
     </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryui")
+
+    <script src="../../content/js/Index.js"></script>
 
 </body>
 </html>

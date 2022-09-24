@@ -136,7 +136,6 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\js\Carousel.js" />
     <Content Include="Content\js\Index.js" />
-    <Content Include="Content\js\VideoPlay.js" />
     <Content Include="Content\navbar.css" />
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />

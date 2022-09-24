@@ -12,7 +12,7 @@
     }
 
     .card-hover {
-        @apply w-full hover:cursor-pointer hover:scale-125 hover:transition hover:shadow-md;
+        @apply hover:cursor-pointer hover:scale-125 hover:transition hover:shadow-md;
     }
 
     .carousel-row {

@@ -10,9 +10,9 @@
     <meta name="viewport" content="width=device-width" />
     <title>Education</title>
 </head>
-<body class="w-full h-screen">
-    <div class="flex w-full justify-center space-x-[80px] h-[450px] mt-[120px]">
-        <div class="card">
+<body class="w-screen h-screen">
+    <div class="flex space-x-[80px] h-[450px] mt-[120px] ml-[100px]">
+        <div id="card1" class="card hidden card-hover">
             <div class="border-b border-black w-full flex justify-center font-bold text-4xl italic pt-3 pb-3">
                 S.S.C
             </div>
@@ -24,7 +24,7 @@
                 <p class="p-3"><span class="font-bold">Academic Year: </span>2015-2017</p>
             </div>
         </div>
-        <div class="card">
+        <div id="card2" class="card hidden card-hover">
             <div class="border-b border-black w-full flex justify-center font-bold text-4xl italic pt-3 pb-3">
                 H.S.C
             </div>
@@ -36,7 +36,7 @@
                 <p class="p-3"><span class="font-bold">Academic Year: </span>2017-2019</p>
             </div>
         </div>
-        <div class="card">
+        <div id="card3" class="card hidden card-hover">
             <div class="border-b border-black w-full flex justify-center font-bold text-4xl italic pt-3 pb-3">
                 B.S.C
             </div>
@@ -49,5 +49,10 @@
             </div>
         </div>
     </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryui")
+
+    <script src="../../content/js/Education.js"></script>
 </body>
 </html>
