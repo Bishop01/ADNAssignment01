@@ -5,28 +5,28 @@
     <meta name="viewport" content="width=device-width" />
     <link href="../../Content/output.css" rel="stylesheet">
 </head>
-<body>
-    <div id="navbar" class="flex space-x-5 text-xl border-b-[1px] items-center w-full">
+<body class="max-h-screen">
+    <div id="navbar" class=" sticky top-0 flex space-x-3 text-lg border-b-[1px] items-center w-full">
 
         <div id="portfolio" class="flex w-[25%] justify-center">
-            <p class="text-2xl italic">Portfolio</p>
+            <p class="text-xl italic">Portfolio</p>
         </div>
 
-        <div id="menu" class="flex ml-8 w-[60%] my-[10px]">
+        <div id="menu" class="flex ml-8 w-[60%] my-[8px]">
             <a id="home" class="navbar-items" href="@Url.Action("Index","Student")">
-                <img class="w-10" src="../Content/images/student.png" />
+                <img class="w-8" src="../Content/images/student.png" />
                 <p>Home</p>
             </a>
             <a class="navbar-items" href="@Url.Action("Education","Student")">
-                <img class="w-10" src="../Content/images/book.png" />
+                <img class="w-8" src="../Content/images/book.png" />
                 <p>Education</p>
             </a>
             <a class="navbar-items" href="@Url.Action("Projects","Student")">
-                <img class="w-10" src="../Content/images/project.png" />
+                <img class="w-8" src="../Content/images/project.png" />
                 <p>Projects</p>
             </a>
             <a class="navbar-items" href="@Url.Action("Reference","Student")">
-                <img class="w-10" src="../Content/images/reference.png" />
+                <img class="w-8" src="../Content/images/reference.png" />
                 <p>Reference</p>
             </a>
         </div>

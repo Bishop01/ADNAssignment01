@@ -2,15 +2,20 @@
 const projectStates = {
     "project-1": {
         currentSlide: 1,
+        maxSlide: 2,
     },
     "project-2": {
         currentSlide: 1,
+        maxSlide: 3,
     },
     "project-3": {
         currentSlide: 1,
+        maxSlide: 3,
     },
-
-    maxSlide: 3
+    "project-4": {
+        currentSlide: 1,
+        maxSlide: 3,
+    },
 };
 
 $(document).ready(function () {
@@ -46,7 +51,7 @@ $(document).ready(function () {
 
         projects.map((project) => {
             if (project == id) {
-                if (projectStates[id].currentSlide < 3) {
+                if (projectStates[id].currentSlide < projectStates[id].maxSlide) {
                     console.log("a");
                     var x = '#' + id;
                     var prevSlide = ".slide-" + (projectStates[id].currentSlide);

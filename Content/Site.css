@@ -4,7 +4,19 @@
 
 @layer components {
     .navbar-items {
-        @apply space-x-3 flex justify-center items-center rounded-xl px-10 py-4 hover:cursor-pointer hover:bg-gray-100;
+        @apply space-x-3 flex justify-center items-center rounded-xl px-8 py-3 hover:cursor-pointer hover:bg-gray-100;
+    }
+
+    .card {
+        @apply w-[25%] flex flex-col items-center rounded-xl bg-[#cce7e8] shadow-md;
+    }
+
+    .card-hover {
+        @apply w-full hover:cursor-pointer hover:scale-125 hover:transition hover:shadow-md;
+    }
+
+    .carousel-row {
+        @apply relative flex justify-center space-x-[100px];
     }
 }
 
